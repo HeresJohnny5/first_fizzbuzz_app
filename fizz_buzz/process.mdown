@@ -70,3 +70,5 @@ I created a new fizz_buzz_app.rb file requiring sinatra and fizz_buzz_functions.
 I created a get_number.erb file explaining the parameters and asking the user to input a number.
 
 The post conversts the number variable to a integer using the .to_i method. The post also shows the result.
+
+I added a result page w/ a radio input, however don't know how to connect the erb to the fizz_buzz_app.rb let alone how to get it to redirect to "/number".

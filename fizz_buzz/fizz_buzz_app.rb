@@ -18,6 +18,11 @@ end
 post "/number" do
 	name = params[:user_name]
 	number = params[:user_number]
-	number = number.to_i
-	fizz_buzz(number)
+	redirect "/result?user_number=#{number}"
+end
+
+get "/result" do
+	number = params[:user_number].to_i
+	fizz_buzz = fizz_buzz(number)
+	erb :result, :locals => {:outcome => fizz_buzz}
 end
