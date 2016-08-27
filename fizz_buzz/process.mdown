@@ -37,3 +37,22 @@ Before working on the app itself, I started writing tests:
 	* Note *
 		Although the code functions correctly I see a issue; test 3 returns string "Mined" as it's divisible by 3, however it's also divisible by 5.
 
+	9 runs/9 assertions
+		test_divisible_by_fifteen_returns_string_minds
+		test_divisible_by_thirty_returns_string_minds
+		test_divisible_by_three_hundred_returns_string_minds
+	* Note *
+		Using the previously mentioned conditional statement I adjusted the code:
+			if number % 3 == 0 && number % 5 == 0 
+				"Mined Minds"
+			elsif number % 3 == 0
+				"Mined"
+			elsif number % 5 == 0
+				"Minds"
+			else
+				number
+			end
+	* Note *
+		I had to adjust test 3, as three hundred is divisble by both 3 and 5. This conditional must go first to see if the number is divisible by both 3 and 5 before going to a elsif statement.
+
+
