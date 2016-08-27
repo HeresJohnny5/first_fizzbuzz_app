@@ -59,5 +59,12 @@ Before working on the app itself, I started writing tests:
 		test_divisible_by_eight_hundred_and_ninty_seven_returns_string_mined
 		test_divisible_by_one_thousand_returns_string_mined
 		test_divisible_by_nine_hundred_returns_string_mined_minds
+****
+
+My tests are functioning correctly.
+
+I moved the function fizz_buzz into a new file - fuzz_buzz_functions.rb and changed the require_relative on the test.rb. All 12 tests still pass.
+
+I created a new fizz_buzz_app.rb file requiring sinatra and fizz_buzz_functions.rb (require_relative). I created a get_name.erb and created the necessary code to ask for the user's name in a text input.
 
 
