@@ -16,6 +16,8 @@ get "/number" do
 end
 
 post "/number" do
+	name = params[:user_name]
 	number = params[:user_number]
 	number = number.to_i
+	fizz_buzz(number)
 end

@@ -69,4 +69,4 @@ I created a new fizz_buzz_app.rb file requiring sinatra and fizz_buzz_functions.
 
 I created a get_number.erb file explaining the parameters and asking the user to input a number.
 
-
+The post conversts the number variable to a integer using the .to_i method. The post also shows the result.
