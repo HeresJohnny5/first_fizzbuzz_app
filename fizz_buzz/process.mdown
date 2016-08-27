@@ -1,0 +1,26 @@
+I created a folder hierarchy:
+	Projects(f)
+		mined_minds_fizz_buzz.rb
+		test.rb
+		process.mdown
+		views(f)
+
+I created a github repository called Projects(f), fizz_buzz(f)
+
+Before working on the app itself, I started writing tests:
+	My first confirmed that mined_minds_fizz_buzz.rb and test.rb are functioning correctly.
+
+****Tests:
+	3 runs/3 assertions
+		test_divisible_by_three_returns_string_mined
+		test_divisible_by_nine_returns_string_mined
+		test_divisible_by_three_hundred_returns_string_mined
+	* Note *
+		I created a conditional statement using a modulus operator:
+			if number % 3 == 0
+				"Mined"
+			else
+				number
+			end
+
+	
