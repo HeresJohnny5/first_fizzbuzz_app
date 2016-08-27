@@ -9,3 +9,13 @@ post "/name" do
 	name = params[:user_name]
 	redirect "/number?user_name=" + name
 end
+
+get "/number" do
+	name = params[:user_name]
+	erb :get_number, :locals => {:your_name => name}
+end
+
+post "/number" do
+	number = params[:user_number]
+	number = number.to_i
+end
