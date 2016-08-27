@@ -53,6 +53,11 @@ Before working on the app itself, I started writing tests:
 				number
 			end
 	* Note *
-		I had to adjust test 3, as three hundred is divisble by both 3 and 5. This conditional must go first to see if the number is divisible by both 3 and 5 before going to a elsif statement.
+		I had to adjust test 3, as three hundred is divisible by both 3 and 5. This conditional must go first to see if the number is divisible by both 3 and 5 before going to a elsif statement.
+
+	12 runs/12 assertions
+		test_divisible_by_eight_hundred_and_ninty_seven_returns_string_mined
+		test_divisible_by_one_thousand_returns_string_mined
+		test_divisible_by_nine_hundred_returns_string_mined_minds
 
 

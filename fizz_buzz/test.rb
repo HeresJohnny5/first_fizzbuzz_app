@@ -21,8 +21,12 @@ class FizzBuzz < Minitest::Test
 		assert_equal(("Mined"), fizzbuzz(9))	
 	end
 
-	def test_divisible_by_twenty_seven__returns_string_mined
+	def test_divisible_by_twenty_seven_returns_string_mined
 		assert_equal(("Mined"), fizzbuzz(27))	
+	end
+
+	def test_divisible_by_eight_hundred_and_ninty_seven_returns_string_mined
+		assert_equal(("Mined"), fizzbuzz(897))	
 	end
 
 	def test_divisible_by_five_returns_string_minds
@@ -37,16 +41,24 @@ class FizzBuzz < Minitest::Test
 		assert_equal(("Minds"), fizzbuzz(500))	
 	end
 
-	def test_divisible_by_fifteen_returns_string_minds
+	def test_divisible_by_one_thousand_returns_string_mined
+		assert_equal(("Minds"), fizzbuzz(1000))	
+	end
+
+	def test_divisible_by_fifteen_returns_string_mined_minds
 		assert_equal(("Mined Minds"), fizzbuzz(15))	
 	end
 
-	def test_divisible_by_thirty_returns_string_minds
+	def test_divisible_by_thirty_returns_string_mined_minds
 		assert_equal(("Mined Minds"), fizzbuzz(30))	
 	end
 
-	def test_divisible_by_three_hundred_returns_string_minds
+	def test_divisible_by_three_hundred_returns_string_mined_minds
 		assert_equal(("Mined Minds"), fizzbuzz(300))	
+	end
+
+	def test_divisible_by_nine_hundred_returns_string_mined_minds
+		assert_equal(("Mined Minds"), fizzbuzz(900))	
 	end
 
 end
