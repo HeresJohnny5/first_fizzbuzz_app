@@ -23,4 +23,17 @@ Before working on the app itself, I started writing tests:
 				number
 			end
 
-	
+	6 runs/6 assertions
+		test_divisible_by_five_returns_string_minds
+		test_divisible_by_ten_returns_string_minds
+		test_divisible_by_five_hundred_returns_string_minds
+	* Note *
+		Using the previously mentioned conditional statement I extended the code using a elsif:
+			elsif number % 5 == 0
+				"Minds"
+			else
+				number
+			end
+	* Note *
+		Although the code functions correctly I see a issue; test 3 returns string "Mined" as it's divisible by 3, however it's also divisible by 5.
+

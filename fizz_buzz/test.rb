@@ -25,4 +25,16 @@ class FizzBuzz < Minitest::Test
 		assert_equal(("Mined"), fizzbuzz(300))	
 	end
 
+	def test_divisible_by_five_returns_string_minds
+		assert_equal(("Minds"), fizzbuzz(5))	
+	end
+
+	def test_divisible_by_ten_returns_string_minds
+		assert_equal(("Minds"), fizzbuzz(10))	
+	end
+
+	def test_divisible_by_five_hundred_returns_string_minds
+		assert_equal(("Minds"), fizzbuzz(500))	
+	end
+
 end
