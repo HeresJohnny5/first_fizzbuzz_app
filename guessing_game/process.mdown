@@ -1,0 +1,8 @@
+I created a folder hierarchy:
+	Projects(f)
+		guessing_game_app.rb
+		test.rb
+		process.mdown
+		views(f)
+
+I saved the file w/in the Projects repository
